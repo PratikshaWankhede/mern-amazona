@@ -12,7 +12,7 @@ pipeline {
 
  stage('Build Docker Image') {
  steps {
- sh 'docker build -t pratikshawankhede/amazona-app ./backend'
+sh 'docker build -t pratikshawankhede/amazona-app ./backend'
  }
  }
 
